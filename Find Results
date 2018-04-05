@@ -1,0 +1,200 @@
+Searching 113 files for "https://ftp.gnome.org"
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome-apps-3.2.modules:
+  389    <tarball id="pygobject2" version="2.28.6" autogenargs="--disable-introspection">
+  390      <pkg-config>pygobject-2.0.pc</pkg-config>
+  391:     <source href="https://ftp.gnome.org/pub/GNOME/sources/pygobject/2.28/pygobject-2.28.6.tar.bz2"
+  392              hash="sha256:e4bfe017fa845940184c82a4d8949db3414cb29dfc84815fb763697dc85bdcee"
+  393              md5sum="a43d783228dd32899e6908352b8308f3" size="888240"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome-suites-core-deps-3.0.modules:
+  320  
+  321    <tarball id="folks" version="0.4.3">
+  322:           <source href="https://ftp.gnome.org/pub/GNOME/sources/folks/0.4/folks-0.4.3.tar.bz2"
+  323              hash="sha256:e5a5bbe1524130ff5b6400726db3e12299b12ffefa108bc89169509f343d925e"
+  324              md5sum="82e3b69de10e5dd59bae170b595f8ad7" size="635168"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome-suites-core-deps-3.2.modules:
+  356  
+  357    <tarball id="folks" version="0.6.4.1" autogenargs="--enable-eds-backend">
+  358:     <source href="https://ftp.gnome.org/pub/GNOME/sources/folks/0.6/folks-0.6.4.1.tar.bz2"
+  359              hash="sha256:1399cf14ce9b363eced8980f55be331fe28464e9b6375525ff7dc6bd164c52cd"
+  360              md5sum="05c3a353bdaccf1f7bdf9fce97aba1e6" size="1561642"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gtk-osx-gtkmm.modules:
+    4  <moduleset>
+    5    <repository type="tarball" name="ftp.gnome.org" default="yes" 
+    6:               href="https://ftp.gnome.org/pub/GNOME/sources/"/>
+    7    <repository type="tarball" name="doxygen" 
+    8                href="http://ftp.stack.nl/pub/users/dimitri/"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gtk-osx-javascript.modules:
+    5  
+    6    <repository type="tarball" name="ftp.gnome.org" default="yes"
+    7:               href="https://ftp.gnome.org/pub/GNOME/sources/"/>
+    8    <repository type="tarball" name="mozilla" href="ftp://ftp.mozilla.org/pub/"/>
+    9  
+
+/Users/nebulabox/Source/jhbuild/modulesets/gtk-osx-network.modules:
+    4  <moduleset>
+    5    <repository name="ftp.gnome.org" type="tarball" default="yes"
+    6:               href="https://ftp.gnome.org/pub/GNOME/sources/"/>
+    7    <repository name="openssl" type="tarball"
+    8                href="https://www.openssl.org/source/"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gtk-osx-python.modules:
+    5  
+    6    <repository type="tarball" name="ftp.gnome.org" default="yes"
+    7:               href="https://ftp.gnome.org/pub/GNOME/sources/"/>
+    8    <repository type="tarball" name="cairographics.org"
+    9                href="http://cairographics.org/releases/"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gtk-osx-random.modules:
+    4  <moduleset>
+    5    <repository type="tarball" name="ftp.gnome.org" default="yes"
+    6:               href="https://ftp.gnome.org/pub/GNOME/sources/"/>
+    7    <repository type="tarball" name="ftp.gtk.org"
+    8                href="ftp://ftp.gtk.org/pub/"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gtk-osx-themes.modules:
+    4  <moduleset>
+    5    <repository type="tarball" name="ftp.gnome.org" default="yes" 
+    6:               href="https://ftp.gnome.org/pub/GNOME/sources/"/>
+    7    <repository type="git" name="git.gnome.org"
+    8                href="git://git.gnome.org/"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gtk-osx-unsupported.modules:
+    4  <moduleset>
+    5    <repository type="tarball" name="ftp.gnome.org" default="yes"
+    6:               href="https://ftp.gnome.org/pub/GNOME/sources/"/>
+    7    <repository type='tarball' name='gnupg.org' href="https://gnupg.org/ftp/" />
+    8    <repository type="tarball" name="iso-codes"
+
+/Users/nebulabox/Source/jhbuild/modulesets/gtk-osx.modules:
+    4  <moduleset>
+    5    <repository type="tarball" name="ftp.gnome.org" default="yes"
+    6:               href="https://ftp.gnome.org/pub/GNOME/sources/"/>
+    7    <repository type="tarball" name="sourceforge"
+    8                href="http://downloads.sourceforge.net/sourceforge/"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/freedesktop-2.16.modules:
+  222  
+  223    <tarball id="system-tools-backends" version="2.2.0">
+  224:     <source href="https://ftp.gnome.org/pub/GNOME/sources/system-tools-backends/2.2/system-tools-backends-2.2.0.tar.bz2" md5sum="c22888cd0d6de02601d014215959f4d0" size="409025"/>
+  225      <suggests>
+  226        <dep package="perl-net-dbus"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/freedesktop-2.18.modules:
+  215  
+  216    <tarball id="system-tools-backends" version="2.2.0">
+  217:     <source href="https://ftp.gnome.org/pub/GNOME/sources/system-tools-backends/2.2/system-tools-backends-2.2.0.tar.bz2" md5sum="c22888cd0d6de02601d014215959f4d0" size="409025"/>
+  218      <suggests>
+  219        <dep package="perl-net-dbus"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/gnome-2.20.modules:
+  421    </autotools>
+  422    <tarball id="gtksourceviewmm-1.0" version="0.3.1">
+  423:     <source href="https://ftp.gnome.org/pub/GNOME/sources/libgtksourceviewmm/0.3/libgtksourceviewmm-0.3.1.tar.gz"
+  424              md5sum="f778768bfbddfb363ae234b19cd0d818" size="568777"/>
+  425      <dependencies>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/gnome-2.22.modules:
+  461    </autotools>
+  462    <tarball id="gtksourceviewmm-1.0" version="0.3.1">
+  463:     <source href="https://ftp.gnome.org/pub/GNOME/sources/libgtksourceviewmm/0.3/libgtksourceviewmm-0.3.1.tar.gz"
+  464              md5sum="f778768bfbddfb363ae234b19cd0d818" size="568777"/>
+  465      <dependencies>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/gnome-2.26.modules:
+ 1220  
+ 1221    <tarball id="libgee" version="0.1.5">
+ 1222:     <source href="https://ftp.gnome.org/pub/GNOME/sources/libgee/0.1/libgee-0.1.5.tar.bz2"
+ 1223              md5sum="80102073421e4d7fb18a6aa9622f4de2" size="250782"/>
+ 1224      <dependencies>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/gnome-2.28.modules:
+ 1256    <tarball id="vala" version="0.7.6" autogenargs="--enable-vapigen">
+ 1257      <source
+ 1258: href="https://ftp.gnome.org/pub/GNOME/sources/vala/0.7/vala-0.7.6.tar.bz2"
+ 1259              hash="sha256:2c33ca0aa2646ba9f73b114c2a83fbea6a97e9b77cec94ecff3a5d68c340f083"
+ 1260              md5sum="1453b2ce04bc83685505f33a025ba5a4" size="1880130"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/gnome-external-deps-2.20.modules:
+  259  
+  260    <tarball id="system-tools-backends" version="2.4.0">
+  261:     <source href="https://ftp.gnome.org/pub/GNOME/sources/system-tools-backends/2.4/system-tools-backends-2.4.0.tar.bz2" md5sum="e4b7fff9ed3b17cb7bacf9c0b9c657b5" size="410302"/>
+  262      <suggests>
+  263        <dep package="dbus"/>
+  ...
+  334  
+  335    <tarball id="gtk-sharp" version="2.10.0">
+  336:     <source href="https://ftp.gnome.org/pub/GNOME/bindings/2.16/2.16.0/sources/mono/gtk-sharp-2.10.0.tar.bz2"
+  337              size= "1434673" md5sum="7786801c53537e8c208fb9f46c22f18b"/>
+  338      <dependencies>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/gnome-external-deps-2.22.modules:
+  313  
+  314    <tarball id="system-tools-backends" version="2.5.6">
+  315:     <source href="https://ftp.gnome.org/pub/GNOME/sources/system-tools-backends/2.5/system-tools-backends-2.5.6.tar.bz2" md5sum="6ae2bdc387d0358c1ba330d5868b81d3" size="416408"/>
+  316      <suggests>
+  317        <dep package="dbus"/>
+  ...
+  351  
+  352    <tarball id="rarian" version="0.7.0" supports-non-srcdir-builds="no">
+  353:     <source href="https://ftp.gnome.org/pub/gnome/sources/rarian/0.7/rarian-0.7.0.tar.bz2"
+  354              size="338437" md5sum="8811c2db80671cb6b9f7eef73edcb66d"/>
+  355      <dependencies>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/gnome-external-deps-2.24.modules:
+  364  
+  365    <tarball id="system-tools-backends" version="2.6.0">
+  366:     <source href="https://ftp.gnome.org/pub/GNOME/sources/system-tools-backends/2.6/system-tools-backends-2.6.0.tar.bz2" md5sum="faf321012e92b72305878cd684547c54" size="421806"/>
+  367      <suggests>
+  368        <dep package="dbus"/>
+  ...
+  435  
+  436    <tarball id="rarian" version="0.8.1" supports-non-srcdir-builds="no">
+  437:     <source href="https://ftp.gnome.org/pub/gnome/sources/rarian/0.8/rarian-0.8.1.tar.bz2"
+  438              size="324441" md5sum="75091185e13da67a0ff4279de1757b94"/>
+  439      <dependencies>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/gnome-external-deps-2.26.modules:
+  425    <tarball id="system-tools-backends" version="2.6.0"
+  426             supports-non-srcdir-builds="no">
+  427:     <source href="https://ftp.gnome.org/pub/GNOME/sources/system-tools-backends/2.6/system-tools-backends-2.6.0.tar.bz2" md5sum="faf321012e92b72305878cd684547c54" size="421806"/>
+  428      <suggests>
+  429        <dep package="dbus"/>
+  ...
+  526  
+  527    <tarball id="rarian" version="0.8.1" supports-non-srcdir-builds="no">
+  528:     <source href="https://ftp.gnome.org/pub/gnome/sources/rarian/0.8/rarian-0.8.1.tar.bz2"
+  529              size="324441" md5sum="75091185e13da67a0ff4279de1757b94"/>
+  530      <dependencies>
+  ...
+  709  
+  710    <tarball id="intltool" version="0.40.5">
+  711:     <source href="https://ftp.gnome.org/pub/GNOME/sources/intltool/0.40/intltool-0.40.5.tar.bz2"
+  712              size="141110" md5sum="3e7ded6f50d88cf8b8bb505eaf591775"/>
+  713      <dependencies>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/gnome-external-deps-2.30.modules:
+  461    <tarball id="system-tools-backends" version="2.9.4"
+  462             supports-non-srcdir-builds="no">
+  463:     <source href="https://ftp.gnome.org/pub/GNOME/sources/system-tools-backends/2.9/system-tools-backends-2.9.4.tar.bz2"
+  464              hash="sha256:b2dc6f82622c1ef4ca02b81d010fb283e32aeb069c27c62e46ee65c3b77e7430"
+  465              md5sum="d12f83b03d0b9c2ed31557ed0193997b" size="461257"/>
+  ...
+ 1078    <tarball id="vala" version="0.8.1" autogenargs="--enable-vapigen">
+ 1079      <source
+ 1080: href="https://ftp.gnome.org/pub/GNOME/sources/vala/0.8/vala-0.8.1.tar.bz2"
+ 1081              hash="sha256:d805853ac87234ec0942e536e3381609eb9da596e32928996103b4342737ea85"
+ 1082              md5sum="3e105d7f39e55925299a3e6e82c32de7" size="2122657"/>
+
+/Users/nebulabox/Source/jhbuild/modulesets/gnome2/gnome-external-deps-2.32.modules:
+  510    <tarball id="system-tools-backends" version="2.10.1"
+  511             supports-non-srcdir-builds="no">
+  512:     <source href="https://ftp.gnome.org/pub/GNOME/sources/system-tools-backends/2.10/system-tools-backends-2.10.1.tar.gz"
+  513              hash="sha256:2f740c99c8cb99226e20cf11ecfcb7f07b74f84d3c07408b72b2f97fc587fee7"
+  514              md5sum="cf633d333c4a3dc67414056517e58941" size="580528"/>
+
+29 matches across 23 files
